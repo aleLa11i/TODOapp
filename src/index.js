@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import { Padre } from './components/tarea-memo/Padre';
+// import { IntroReducer } from './components/useReducer/IntroReducer';
+import { TodoApp } from './components/useReducer/TodoApp';
+// import { FormWithCustomHook } from './components/useEffect/FormWithCustomHook';
+// import { SimpleForm } from './components/useEffect/SimpleForm';
+// import { UseMultipleState } from './components/useExamples/UseMultipleState';
+// import { ExampleRef } from './components/useRef/ExampleRef';
+// import { CounterWithCustomHooks } from './components/useState/CounterWithCustomHooks';
+// import { useFetch } from './Hooks/useFetch';
+// import { HooksApp } from './HooksApp';
+
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+    <TodoApp />
+  </>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

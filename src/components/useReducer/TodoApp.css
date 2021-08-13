@@ -1,0 +1,20 @@
+.Todo{
+    cursor: pointer;
+    padding: 20px;
+}
+
+.boton-borrar{
+    position: absolute;
+    right: 5vw;
+    bottom: 15px;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.form-label input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
